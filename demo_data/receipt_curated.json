@@ -1,0 +1,1693 @@
+[
+  {
+    "receipt_id": "whole_foods_photo",
+    "source_file": "IMG_2557.jpeg",
+    "merchant": "Whole Foods Market, Los Altos, CA",
+    "transaction_date": null,
+    "currency": "USD",
+    "receipt_total": 119.36,
+    "food_purchase_subtotal_identified": 32.98,
+    "foods": [
+      {
+        "raw": "GNJI DUELING DUET RL",
+        "interpretation": "Genji prepared sushi roll (possible)",
+        "price": 16.99,
+        "confidence": "medium",
+        "tags": [
+          "sushi",
+          "japanese",
+          "seafood_possible"
+        ]
+      },
+      {
+        "raw": "GNJI TUNA SLMN NGRI",
+        "interpretation": "Genji tuna/salmon nigiri (possible)",
+        "price": 15.99,
+        "confidence": "medium",
+        "tags": [
+          "sushi",
+          "japanese",
+          "seafood"
+        ]
+      }
+    ],
+    "excluded_lines": [
+      "$50 gift card (not food)",
+      "compostable bowls and spoons (not food)",
+      "greeting card (not food)",
+      "ELFLWR WHOLE BOT (unclear: do not categorize)"
+    ],
+    "notes": "Visible portion lacks transaction date. $119.36 is total of food and nonfood, not meal budget. Do not treat product shorthand as a verified full ingredient list."
+  },
+  {
+    "receipt_id": "frankfurt_food_photo",
+    "source_file": "IMG_2558.jpeg",
+    "merchant": "Meyer Feinkost Airport GmbH / Coffee Deli Kitchen, Frankfurt Airport",
+    "transaction_date": "2026-11-09",
+    "currency": "EUR",
+    "receipt_total": 5.95,
+    "food_purchase_subtotal_identified": 5.95,
+    "foods": [
+      {
+        "raw": "VEGAN TROPIC DELIGHT",
+        "interpretation": "vegan prepared food (ingredients unknown)",
+        "price": 5.95,
+        "confidence": "high",
+        "tags": [
+          "plant_based_possible",
+          "vegan_item"
+        ]
+      }
+    ],
+    "excluded_lines": [],
+    "notes": "German date format DD.MM.YYYY; price does not establish typical budget or lifelong vegan preference."
+  },
+  {
+    "receipt_id": "frankfurt_card_slip",
+    "source_file": "IMG_2559.jpeg",
+    "merchant": "Frankfurt Airport IV / payment terminal",
+    "transaction_date": "2026-11-09",
+    "currency": "EUR",
+    "receipt_total": 5.95,
+    "food_purchase_subtotal_identified": 0.0,
+    "foods": [],
+    "excluded_lines": [
+      "Card payment details not stored"
+    ],
+    "duplicate_of": "frankfurt_food_photo",
+    "notes": "Payment evidence for same approximate timestamp/amount; not an independent purchase. Never count twice."
+  },
+  {
+    "receipt_id": "whole_foods_los_altos_2563",
+    "source_file": "IMG_2563.jpeg",
+    "merchant": "Whole Foods Market, Los Altos, CA",
+    "transaction_date": null,
+    "currency": "USD",
+    "receipt_total": 159.52,
+    "food_purchase_subtotal_identified": 159.42,
+    "foods": [
+      {
+        "raw": "OG SWT MINI PEPPER",
+        "interpretation": "Organic sweet mini peppers",
+        "price": 9.98,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ],
+        "quantity": 2,
+        "quantity_unit": "packs",
+        "unit_price": 4.99
+      },
+      {
+        "raw": "GREEN SCALLION",
+        "interpretation": "Green scallions",
+        "price": 1.29,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "LIME",
+        "interpretation": "Limes",
+        "price": 0.88,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit"
+        ],
+        "quantity": 3,
+        "quantity_unit": "each",
+        "unit_price": 0.59
+      },
+      {
+        "raw": "EGGPLANT",
+        "interpretation": "Eggplant",
+        "price": 4.66,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ],
+        "quantity": 1.87,
+        "quantity_unit": "lb",
+        "unit_price": 2.49
+      },
+      {
+        "raw": "WFM OG BABY CUCUMBER",
+        "interpretation": "Organic baby cucumbers",
+        "price": 4.99,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "OG BANANA",
+        "interpretation": "Organic bananas",
+        "price": 2.83,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit",
+          "breakfast"
+        ],
+        "quantity": 2.86,
+        "quantity_unit": "lb",
+        "unit_price": 0.99
+      },
+      {
+        "raw": "BUTTER CROISSANT 12CT",
+        "interpretation": "Butter croissants (12 count)",
+        "price": 7.49,
+        "confidence": "high",
+        "category": "bakery",
+        "tags": [
+          "bread",
+          "breakfast"
+        ],
+        "quantity": 12,
+        "quantity_unit": "count"
+      },
+      {
+        "raw": "DRSCL OG STRAWBERRY 16OZ",
+        "interpretation": "Organic strawberries, 16 oz",
+        "price": 7.99,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit",
+          "berries"
+        ]
+      },
+      {
+        "raw": "STEFANO BURRATA",
+        "interpretation": "Burrata cheese",
+        "price": 9.99,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "dairy",
+          "cheese"
+        ]
+      },
+      {
+        "raw": "RASPBERRIES",
+        "interpretation": "Raspberries",
+        "price": 7.49,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit",
+          "berries"
+        ]
+      },
+      {
+        "raw": "RED SDLS GRAPE",
+        "interpretation": "Red seedless grapes",
+        "price": 5.18,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit"
+        ],
+        "quantity": 2.08,
+        "quantity_unit": "lb",
+        "unit_price": 2.99
+      },
+      {
+        "raw": "DRSCL SHT BATCH BLBRRY",
+        "interpretation": "Driscoll blueberries",
+        "price": 9.99,
+        "confidence": "medium",
+        "category": "fruit",
+        "tags": [
+          "fruit",
+          "berries"
+        ]
+      },
+      {
+        "raw": "OG EASTER EGG RADISH",
+        "interpretation": "Organic Easter egg radishes",
+        "price": 4.98,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ],
+        "quantity": 2,
+        "quantity_unit": "bunches",
+        "unit_price": 2.49
+      },
+      {
+        "raw": "365WFM OG YEL POTATO BAG",
+        "interpretation": "Organic yellow potato bags",
+        "price": 16.47,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables",
+          "potatoes"
+        ],
+        "quantity": 3,
+        "quantity_unit": "bags",
+        "unit_price": 5.49
+      },
+      {
+        "raw": "OG YELLOW ONION",
+        "interpretation": "Organic yellow onions",
+        "price": 7.45,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ],
+        "quantity": 2.49,
+        "quantity_unit": "lb",
+        "unit_price": 2.99
+      },
+      {
+        "raw": "MGRMOG OG MANDARIN BAG",
+        "interpretation": "Organic mandarin oranges, bag",
+        "price": 5.99,
+        "confidence": "medium",
+        "category": "fruit",
+        "tags": [
+          "fruit",
+          "citrus"
+        ]
+      },
+      {
+        "raw": "365WFM ... KALE SLD KIT",
+        "interpretation": "Kale salad kits (description partially obscured)",
+        "price": 9.38,
+        "confidence": "medium",
+        "category": "prepared_salad",
+        "tags": [
+          "salad",
+          "vegetables"
+        ],
+        "quantity": 2,
+        "quantity_unit": "kits",
+        "unit_price": 4.69
+      },
+      {
+        "raw": "365WFM OG GLDN RND CKRS",
+        "interpretation": "365 organic golden round crackers",
+        "price": 9.98,
+        "confidence": "medium",
+        "category": "crackers",
+        "tags": [
+          "crackers"
+        ],
+        "quantity": 2,
+        "quantity_unit": "packs",
+        "unit_price": 4.99
+      },
+      {
+        "raw": "365WFM GOAT CHEESE LOG",
+        "interpretation": "Goat cheese log",
+        "price": 7.79,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "dairy",
+          "cheese"
+        ]
+      },
+      {
+        "raw": "SESAME SEED BAGEL 6CT",
+        "interpretation": "Sesame seed bagels, 6 count",
+        "price": 5.99,
+        "confidence": "high",
+        "category": "bakery",
+        "tags": [
+          "bread",
+          "breakfast"
+        ],
+        "quantity": 6,
+        "quantity_unit": "count"
+      },
+      {
+        "raw": "KSGGIO ORIGINALE CUBES",
+        "interpretation": "Originale cubes (product identification uncertain)",
+        "price": 7.14,
+        "confidence": "low",
+        "category": "unclassified",
+        "tags": [],
+        "quantity": 0.42,
+        "quantity_unit": "lb",
+        "unit_price": 16.99
+      },
+      {
+        "raw": "POMWM POM JUICE",
+        "interpretation": "Pomegranate juice",
+        "price": 11.49,
+        "confidence": "high",
+        "category": "beverage",
+        "tags": [
+          "juice",
+          "fruit"
+        ]
+      }
+    ],
+    "excluded_lines": [
+      "CRV SGL 24OZ and UP $0.10 (container deposit, not food)",
+      "Payment/tender details and store identifiers excluded."
+    ],
+    "notes": "Receipt shows 30 sold items and $159.52 net/total. Prices are historical line totals after displayed savings; receipt includes $0.10 bottle deposit. No date shown. Product descriptions are not full ingredient labels. 2026 photographed source.",
+    "capture_status": "full_visible_no_date",
+    "unresolved_lines": []
+  },
+  {
+    "receipt_id": "grocery_outlet_2564",
+    "source_file": "IMG_2564.jpeg",
+    "merchant": "Grocery Outlet (location not visible)",
+    "transaction_date": null,
+    "currency": "USD",
+    "receipt_total": 20.12,
+    "food_purchase_subtotal_identified": 20.12,
+    "foods": [
+      {
+        "raw": "CINNAMON RAISIN",
+        "interpretation": "Cinnamon raisin bakery product (format not shown)",
+        "price": 2.49,
+        "confidence": "medium",
+        "category": "bakery",
+        "tags": [
+          "bread",
+          "breakfast"
+        ]
+      },
+      {
+        "raw": "GO ROTINI PASTA",
+        "interpretation": "Rotini pasta",
+        "price": 2.38,
+        "confidence": "high",
+        "category": "pasta",
+        "tags": [
+          "pasta",
+          "noodles"
+        ],
+        "quantity": 2,
+        "quantity_unit": "packs",
+        "unit_price": 1.19
+      },
+      {
+        "raw": "LE... BERRY DANISH",
+        "interpretation": "Berry Danish pastry",
+        "price": 2.99,
+        "confidence": "medium",
+        "category": "bakery",
+        "tags": [
+          "breakfast",
+          "pastry"
+        ]
+      },
+      {
+        "raw": "MILKA MILKINIS",
+        "interpretation": "Milka Milkinis chocolate snack",
+        "price": 1.99,
+        "confidence": "high",
+        "category": "sweets",
+        "tags": [
+          "sweets",
+          "chocolate"
+        ]
+      },
+      {
+        "raw": "no salt creamy pb",
+        "interpretation": "No-salt creamy peanut butter",
+        "price": 1.99,
+        "confidence": "high",
+        "category": "spread",
+        "tags": [
+          "peanut_butter",
+          "nuts"
+        ]
+      },
+      {
+        "raw": "... FRESH STACKS",
+        "interpretation": "Fresh Stacks snack/crackers (brand unreadable)",
+        "price": 1.99,
+        "confidence": "low",
+        "category": "snack",
+        "tags": [
+          "crackers"
+        ]
+      },
+      {
+        "raw": "Organic banana",
+        "interpretation": "Organic bananas",
+        "price": 1.06,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit",
+          "breakfast"
+        ],
+        "quantity": 1.34,
+        "quantity_unit": "lb",
+        "unit_price": 0.79
+      },
+      {
+        "raw": "Gar... herb 2p",
+        "interpretation": "Uncertain deli herb product",
+        "price": 0.25,
+        "confidence": "low",
+        "category": "unclassified",
+        "tags": []
+      },
+      {
+        "raw": "UNSWT ... COCO MWO",
+        "interpretation": "Unsweetened coconut product (type uncertain)",
+        "price": 1.99,
+        "confidence": "low",
+        "category": "unclassified",
+        "tags": []
+      },
+      {
+        "raw": "YGRT PLAIN CERT",
+        "interpretation": "Plain yogurt (brand uncertain)",
+        "price": 2.99,
+        "confidence": "medium",
+        "category": "dairy",
+        "tags": [
+          "dairy",
+          "yogurt"
+        ]
+      }
+    ],
+    "excluded_lines": [],
+    "notes": "All ten photographed price lines sum to $20.12, as shown. Receipt date and full store address are outside image. Handwritten notes were not treated as item data.",
+    "capture_status": "partial_header_and_footer",
+    "unresolved_lines": []
+  },
+  {
+    "receipt_id": "trader_joes_2565",
+    "source_file": "IMG_2565.jpeg",
+    "merchant": "Trader Joe's, Mountain View, CA (location header partly cut)",
+    "transaction_date": null,
+    "currency": "USD",
+    "receipt_total": null,
+    "food_purchase_subtotal_identified": 194.02,
+    "foods": [
+      {
+        "raw": "MILK ORGANIC GALLON LOW",
+        "interpretation": "Organic low-fat milk, 2 gallons",
+        "price": 14.98,
+        "confidence": "medium",
+        "category": "dairy",
+        "tags": [
+          "milk",
+          "dairy"
+        ],
+        "quantity": 2,
+        "quantity_unit": "gallons",
+        "unit_price": 7.49
+      },
+      {
+        "raw": "PLAIN BAGELS",
+        "interpretation": "Plain bagels",
+        "price": 2.49,
+        "confidence": "high",
+        "category": "bakery",
+        "tags": [
+          "bread",
+          "breakfast"
+        ]
+      },
+      {
+        "raw": "WALKS INTO A BAR BLUEBER",
+        "interpretation": "Blueberry cereal/snack bar",
+        "price": 2.49,
+        "confidence": "medium",
+        "category": "snack",
+        "tags": [
+          "berries",
+          "snacks"
+        ]
+      },
+      {
+        "raw": "BAGELS CINNAMON SWIRL RA",
+        "interpretation": "Cinnamon swirl raisin bagels",
+        "price": 2.99,
+        "confidence": "medium",
+        "category": "bakery",
+        "tags": [
+          "bread",
+          "breakfast"
+        ]
+      },
+      {
+        "raw": "BAREBELLS CARAMEL CASHEW",
+        "interpretation": "Barebells caramel cashew bars",
+        "price": 29.88,
+        "confidence": "medium",
+        "category": "snack",
+        "tags": [
+          "snacks",
+          "nuts"
+        ]
+      },
+      {
+        "raw": "TONIC WATER 12 OZ 4 PK",
+        "interpretation": "Tonic water, 4-pack",
+        "price": 3.99,
+        "confidence": "medium",
+        "category": "beverage",
+        "tags": [
+          "beverage"
+        ],
+        "quantity": 4,
+        "quantity_unit": "cans"
+      },
+      {
+        "raw": "YOGURT ORGANIC VANILLA 3",
+        "interpretation": "Organic vanilla yogurt",
+        "price": 3.99,
+        "confidence": "medium",
+        "category": "dairy",
+        "tags": [
+          "yogurt",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "YOGURT ORGANIC PLAIN 32",
+        "interpretation": "Organic plain yogurt, 32 oz",
+        "price": 3.99,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "yogurt",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "YOGURT ORGANIC PLAIN 32",
+        "interpretation": "Organic plain yogurt, 32 oz",
+        "price": 3.99,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "yogurt",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "SOUR CREAM PINT WHOLE",
+        "interpretation": "Whole sour cream, pint",
+        "price": 2.49,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "dairy"
+        ]
+      },
+      {
+        "raw": "A-SQUASH BUTTERNUT EACH",
+        "interpretation": "Butternut squash",
+        "price": 2.49,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "POUND PLUS DARK CHOC ALM",
+        "interpretation": "Pound Plus dark chocolate with almonds",
+        "price": 6.99,
+        "confidence": "high",
+        "category": "sweets",
+        "tags": [
+          "chocolate",
+          "nuts"
+        ]
+      },
+      {
+        "raw": "POUND PLUS DARK CHOC BAR",
+        "interpretation": "Pound Plus dark chocolate bar",
+        "price": 8.99,
+        "confidence": "high",
+        "category": "sweets",
+        "tags": [
+          "chocolate"
+        ]
+      },
+      {
+        "raw": "FLOUR TORTILLAS",
+        "interpretation": "Flour tortillas",
+        "price": 2.49,
+        "confidence": "high",
+        "category": "bakery",
+        "tags": [
+          "bread"
+        ]
+      },
+      {
+        "raw": "MULTI-FLORAL AND CLOVER",
+        "interpretation": "Multifloral and clover honey",
+        "price": 7.49,
+        "confidence": "medium",
+        "category": "sweetener",
+        "tags": [
+          "honey"
+        ]
+      },
+      {
+        "raw": "THIN SLI ... ARTI",
+        "interpretation": "Thin-sliced item; text obscured",
+        "price": 4.49,
+        "confidence": "low",
+        "category": "unclassified",
+        "tags": []
+      },
+      {
+        "raw": "SHREDDEL ... FORMAGG",
+        "interpretation": "Shredded cheese / quattro formaggi (possible)",
+        "price": 5.49,
+        "confidence": "medium",
+        "category": "dairy",
+        "tags": [
+          "cheese",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "PART SKIM RICOTTA",
+        "interpretation": "Part-skim ricotta cheese",
+        "price": 3.99,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "cheese",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "PART SKIM RICOTTA",
+        "interpretation": "Part-skim ricotta cheese",
+        "price": 3.99,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "cheese",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "HANDFUL ALMOND CHOCOLATE",
+        "interpretation": "Handful of almond chocolate snack",
+        "price": 6.99,
+        "confidence": "medium",
+        "category": "snack",
+        "tags": [
+          "nuts",
+          "chocolate"
+        ]
+      },
+      {
+        "raw": "JUST A HANDFUL OF RAINBO",
+        "interpretation": "Just a Handful of Rainbow snack mix",
+        "price": 5.99,
+        "confidence": "medium",
+        "category": "snack",
+        "tags": [
+          "snacks"
+        ]
+      },
+      {
+        "raw": "DRY ROASTED & UNSALTED A",
+        "interpretation": "Dry roasted unsalted almonds (probable)",
+        "price": 6.49,
+        "confidence": "medium",
+        "category": "nuts",
+        "tags": [
+          "nuts"
+        ]
+      },
+      {
+        "raw": "RED WAX GOUDA",
+        "interpretation": "Red wax Gouda cheese",
+        "price": 5.11,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "cheese",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "RED WAX GOUDA",
+        "interpretation": "Red wax Gouda cheese",
+        "price": 4.23,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "cheese",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "ORG ANIMAL CRACKERS",
+        "interpretation": "Organic animal crackers",
+        "price": null,
+        "confidence": "medium",
+        "category": "snack",
+        "tags": [
+          "crackers"
+        ]
+      },
+      {
+        "raw": "PASTA MACARONI",
+        "interpretation": "Macaroni pasta",
+        "price": null,
+        "confidence": "high",
+        "category": "pasta",
+        "tags": [
+          "pasta",
+          "noodles"
+        ]
+      },
+      {
+        "raw": "PASTA ORG SPAGHETTI",
+        "interpretation": "Organic spaghetti",
+        "price": null,
+        "confidence": "high",
+        "category": "pasta",
+        "tags": [
+          "pasta",
+          "noodles"
+        ]
+      },
+      {
+        "raw": "PASTA ORG SPAGHETTI",
+        "interpretation": "Organic spaghetti",
+        "price": 1.49,
+        "confidence": "high",
+        "category": "pasta",
+        "tags": [
+          "pasta",
+          "noodles"
+        ]
+      },
+      {
+        "raw": "OIL HIGH OLEIC SUNFLOWER",
+        "interpretation": "High-oleic sunflower oil",
+        "price": 4.29,
+        "confidence": "high",
+        "category": "oil",
+        "tags": [
+          "oil"
+        ]
+      },
+      {
+        "raw": "BEANS GREEN ORGANIC 1LB",
+        "interpretation": "Organic green beans, 1 lb",
+        "price": 3.29,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "CORN ON THE COB EACH",
+        "interpretation": "Corn on the cob",
+        "price": 4.83,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ],
+        "quantity": 7,
+        "quantity_unit": "ears",
+        "unit_price": 0.69
+      },
+      {
+        "raw": "BANANA EACH",
+        "interpretation": "Bananas",
+        "price": 1.61,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit",
+          "breakfast"
+        ],
+        "quantity": 7,
+        "quantity_unit": "each",
+        "unit_price": 0.23
+      },
+      {
+        "raw": "BLUEBERRY WAFFLES",
+        "interpretation": "Blueberry waffles",
+        "price": 2.79,
+        "confidence": "high",
+        "category": "frozen_bakery",
+        "tags": [
+          "breakfast",
+          "berries"
+        ]
+      },
+      {
+        "raw": "BLUEBERRY WAFFLES",
+        "interpretation": "Blueberry waffles, repeated line",
+        "price": null,
+        "confidence": "medium",
+        "category": "frozen_bakery",
+        "tags": [
+          "breakfast",
+          "berries"
+        ]
+      },
+      {
+        "raw": "CALIFORNIA GOLDEN RAISIN",
+        "interpretation": "California golden raisins",
+        "price": null,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit",
+          "dried_fruit"
+        ]
+      },
+      {
+        "raw": "CALIFORNIA GOLDEN RAISIN",
+        "interpretation": "California golden raisins, repeated line",
+        "price": null,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit",
+          "dried_fruit"
+        ]
+      },
+      {
+        "raw": "POTATO BAG ... 5 LB",
+        "interpretation": "Potatoes, 5 lb bag",
+        "price": null,
+        "confidence": "medium",
+        "category": "vegetables",
+        "tags": [
+          "vegetables",
+          "potatoes"
+        ]
+      },
+      {
+        "raw": "EXTRA VIRGIN OLIVE OIL 1",
+        "interpretation": "Extra virgin olive oil",
+        "price": null,
+        "confidence": "medium",
+        "category": "oil",
+        "tags": [
+          "oil"
+        ]
+      },
+      {
+        "raw": "SALAD MEDITERRANEAN CH",
+        "interpretation": "Mediterranean salad kit (name truncated)",
+        "price": null,
+        "confidence": "medium",
+        "category": "prepared_salad",
+        "tags": [
+          "salad",
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "CARROTS CUT & PEELED ORG",
+        "interpretation": "Organic cut and peeled carrots",
+        "price": 1.99,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "SALAD COMPLETE SWEET K",
+        "interpretation": "Sweet kale complete salad kit",
+        "price": 3.29,
+        "confidence": "medium",
+        "category": "prepared_salad",
+        "tags": [
+          "salad",
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "SALAD COMPLETE CAESAR",
+        "interpretation": "Caesar complete salad kit",
+        "price": 3.99,
+        "confidence": "high",
+        "category": "prepared_salad",
+        "tags": [
+          "salad",
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "APPLES GALA ORG 4 CT",
+        "interpretation": "Organic Gala apples, 4 count",
+        "price": 3.99,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit"
+        ],
+        "quantity": 4,
+        "quantity_unit": "each"
+      },
+      {
+        "raw": "APPLES GALA ORG 4 CT",
+        "interpretation": "Organic Gala apples, 4 count",
+        "price": 3.99,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit"
+        ],
+        "quantity": 4,
+        "quantity_unit": "each"
+      },
+      {
+        "raw": "ONIONS YELLOW ORG 2 LB",
+        "interpretation": "Organic yellow onions, 2 lb",
+        "price": 3.99,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "BLACKBERRIES KAROLINE",
+        "interpretation": "Karoline blackberries",
+        "price": 3.99,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "berries",
+          "fruit"
+        ]
+      },
+      {
+        "raw": "BLACKBERRIES KAROLINE",
+        "interpretation": "Karoline blackberries",
+        "price": 3.99,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "berries",
+          "fruit"
+        ]
+      }
+    ],
+    "excluded_lines": [
+      "Bottle Deposit (nonfood)"
+    ],
+    "notes": "Long photographed Trader Joe's receipt is cut off at top/bottom and folded. Many prices near folds unreadable: those are null, never estimated. No receipt total or date is visible. Individual duplicate product lines on THIS receipt are separate physical items, not duplicate receipts. Bottle deposit omitted.",
+    "capture_status": "partial_receipt_faded_folded",
+    "unresolved_lines": [
+      {
+        "raw": "BEVERAGE OAT UN...",
+        "reason": "Description and amount too faint near fold"
+      },
+      {
+        "raw": "UNBLEACHED ALL PURPOSE ...",
+        "reason": "Top line and exact price obscured"
+      },
+      {
+        "raw": "Additional blackberry line at lower cutoff",
+        "reason": "Cannot confirm another separate item from cut image"
+      }
+    ]
+  },
+  {
+    "receipt_id": "whole_foods_los_altos_2566",
+    "source_file": "IMG_2566.jpeg",
+    "merchant": "Whole Foods Market, Los Altos, CA",
+    "transaction_date": null,
+    "currency": "USD",
+    "receipt_total": 66.38,
+    "food_purchase_subtotal_identified": 66.38,
+    "foods": [
+      {
+        "raw": "OATLY FULL FAT OAT MILK",
+        "interpretation": "Oatly full-fat oat milk",
+        "price": 11.38,
+        "confidence": "high",
+        "category": "plant_milk",
+        "tags": [
+          "oat_milk",
+          "dairy_alternative"
+        ],
+        "quantity": 2,
+        "quantity_unit": "cartons",
+        "unit_price": 5.69
+      },
+      {
+        "raw": "365WFM OG WW FLOUR",
+        "interpretation": "365 organic whole wheat flour",
+        "price": 7.79,
+        "confidence": "high",
+        "category": "baking",
+        "tags": [
+          "flour",
+          "grain"
+        ]
+      },
+      {
+        "raw": "OG YELLOW POTATO 3LB",
+        "interpretation": "Organic yellow potatoes, 3 lb",
+        "price": 5.99,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables",
+          "potatoes"
+        ]
+      },
+      {
+        "raw": "SWTST BATCH BLUEBERRIES",
+        "interpretation": "Sweetest Batch blueberries",
+        "price": 7.99,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit",
+          "berries"
+        ]
+      },
+      {
+        "raw": "CLVRSN BUTTERMILK",
+        "interpretation": "Buttermilk",
+        "price": 3.49,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "milk",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "365WFM OG YELLOW ONION 3LB",
+        "interpretation": "365 organic yellow onions, 3 lb",
+        "price": 5.99,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "365WFM OG 2PCT MILK",
+        "interpretation": "365 organic 2% milk",
+        "price": 7.99,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "milk",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "365WFM OG 1PCT MILK",
+        "interpretation": "365 organic 1% milk",
+        "price": 7.99,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "milk",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "OG DILL BUNCH",
+        "interpretation": "Organic fresh dill",
+        "price": 2.69,
+        "confidence": "high",
+        "category": "herbs",
+        "tags": [
+          "herbs",
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "OG LOOSE BEETS",
+        "interpretation": "Organic loose beets",
+        "price": 5.08,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ],
+        "quantity": 1.7,
+        "quantity_unit": "lb",
+        "unit_price": 2.99
+      }
+    ],
+    "excluded_lines": [],
+    "notes": "Visible food line amounts add exactly to the $66.38 receipt total. No transaction date shown. Payment/card and benefit information intentionally excluded.",
+    "capture_status": "complete_visible_no_date",
+    "unresolved_lines": []
+  },
+  {
+    "receipt_id": "grocery_outlet_2567",
+    "source_file": "IMG_2567.jpeg",
+    "merchant": "Grocery Outlet (location obscured)",
+    "transaction_date": null,
+    "currency": "USD",
+    "receipt_total": 37.44,
+    "food_purchase_subtotal_identified": 37.44,
+    "foods": [
+      {
+        "raw": "BS PLN ENG MUFF 10",
+        "interpretation": "Plain English muffins, 10 count",
+        "price": 2.79,
+        "confidence": "medium",
+        "category": "bakery",
+        "tags": [
+          "bread",
+          "breakfast"
+        ]
+      },
+      {
+        "raw": "CINNAMON RAISIN",
+        "interpretation": "Cinnamon-raisin bakery product (type unspecified)",
+        "price": 2.49,
+        "confidence": "medium",
+        "category": "bakery",
+        "tags": [
+          "bread",
+          "breakfast"
+        ]
+      },
+      {
+        "raw": "POLAR SARDINES",
+        "interpretation": "Polar brand sardines",
+        "price": 3.16,
+        "confidence": "high",
+        "category": "canned_fish",
+        "tags": [
+          "fish",
+          "seafood"
+        ],
+        "quantity": 4,
+        "quantity_unit": "cans",
+        "unit_price": 0.79
+      },
+      {
+        "raw": "SAINT JAMES",
+        "interpretation": "Saint James (product unidentified)",
+        "price": 0.99,
+        "confidence": "low",
+        "category": "unclassified",
+        "tags": []
+      },
+      {
+        "raw": "POTATO RED",
+        "interpretation": "Red potatoes",
+        "price": 2.99,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables",
+          "potatoes"
+        ]
+      },
+      {
+        "raw": "SQUASH ITALIAN",
+        "interpretation": "Italian squash",
+        "price": 2.0,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ],
+        "quantity": 2.02,
+        "quantity_unit": "lb",
+        "unit_price": 0.99
+      },
+      {
+        "raw": "Homo Milk",
+        "interpretation": "Whole milk (homogenized)",
+        "price": 1.99,
+        "confidence": "medium",
+        "category": "dairy",
+        "tags": [
+          "milk",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "MONT JACK CHUNK",
+        "interpretation": "Monterey Jack cheese chunk",
+        "price": 1.99,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "cheese",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "SALTED BUTTER",
+        "interpretation": "Salted butter",
+        "price": 2.49,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "dairy"
+        ]
+      },
+      {
+        "raw": "SANDERSON DRUMSTIC",
+        "interpretation": "Sanderson chicken drumsticks",
+        "price": 6.46,
+        "confidence": "medium",
+        "category": "meat",
+        "tags": [
+          "poultry",
+          "chicken"
+        ]
+      },
+      {
+        "raw": "TENDERS 2 PC P12",
+        "interpretation": "Two-piece chicken tenders package (exact cut uncertain)",
+        "price": 10.09,
+        "confidence": "medium",
+        "category": "meat",
+        "tags": [
+          "poultry",
+          "chicken"
+        ]
+      }
+    ],
+    "excluded_lines": [],
+    "notes": "Visible eleven price lines reconcile to $37.44. Store name inferred from matching Grocery Outlet receipt layout but location/date not visible.",
+    "capture_status": "partial_header_complete_items",
+    "unresolved_lines": []
+  },
+  {
+    "receipt_id": "grocery_outlet_2568",
+    "source_file": "IMG_2568.jpeg",
+    "merchant": "Grocery Outlet, Palo Alto, CA",
+    "transaction_date": null,
+    "currency": "USD",
+    "receipt_total": null,
+    "food_purchase_subtotal_identified": 29.52,
+    "foods": [
+      {
+        "raw": "CINNAMON RAISIN",
+        "interpretation": "Cinnamon-raisin bakery product (type unspecified)",
+        "price": 2.49,
+        "confidence": "medium",
+        "category": "bakery",
+        "tags": [
+          "bread",
+          "breakfast"
+        ]
+      },
+      {
+        "raw": "Jif Chocolate PB",
+        "interpretation": "Jif chocolate peanut butter",
+        "price": 1.49,
+        "confidence": "high",
+        "category": "spread",
+        "tags": [
+          "peanut_butter",
+          "chocolate"
+        ]
+      },
+      {
+        "raw": "CABBAGE GREEN",
+        "interpretation": "Green cabbage",
+        "price": 3.07,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ],
+        "quantity": 4.45,
+        "quantity_unit": "lb",
+        "unit_price": 0.69
+      },
+      {
+        "raw": "ORG CUCUMBER MINI 12",
+        "interpretation": "Organic mini cucumbers",
+        "price": 6.98,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ],
+        "quantity": 2,
+        "quantity_unit": "packs",
+        "unit_price": 3.49
+      },
+      {
+        "raw": "Red Onions",
+        "interpretation": "Red onions",
+        "price": 1.99,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "ROUND TOMATOES",
+        "interpretation": "Round tomatoes",
+        "price": 5.99,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "Creamy Blue Wedge",
+        "interpretation": "Blue cheese wedge",
+        "price": 0.99,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "cheese",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "PICNIC PACK",
+        "interpretation": "Picnic pack (meat item, content unspecified)",
+        "price": 6.52,
+        "confidence": "low",
+        "category": "meat",
+        "tags": [
+          "meat"
+        ]
+      }
+    ],
+    "excluded_lines": [],
+    "notes": "Photo cuts off receipt before totals and transaction date. Sum of visible line prices is a partial identified subtotal, NOT a verified receipt total. No claim that the item count is complete.",
+    "capture_status": "partial_receipt_no_total",
+    "unresolved_lines": []
+  },
+  {
+    "receipt_id": "safeway_2569",
+    "source_file": "IMG_2569.jpeg",
+    "merchant": "Safeway, Mountain View, CA",
+    "transaction_date": "2026-04-19",
+    "currency": "USD",
+    "receipt_total": 44.12,
+    "food_purchase_subtotal_identified": 44.12,
+    "foods": [
+      {
+        "raw": "CHOC STRBRY CK 2LY",
+        "interpretation": "Chocolate strawberry cake, two-layer",
+        "price": 25.99,
+        "confidence": "medium",
+        "category": "bakery",
+        "tags": [
+          "cake",
+          "dessert"
+        ]
+      },
+      {
+        "raw": "CAKE BOSTON",
+        "interpretation": "Boston-style cake",
+        "price": 14.99,
+        "confidence": "medium",
+        "category": "bakery",
+        "tags": [
+          "cake",
+          "dessert"
+        ]
+      },
+      {
+        "raw": "GREEN CABBAGE",
+        "interpretation": "Green cabbage",
+        "price": 3.14,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ],
+        "quantity": 1.86,
+        "quantity_unit": "lb",
+        "unit_price": 1.69
+      }
+    ],
+    "excluded_lines": [],
+    "notes": "Complete visible receipt, $44.12 total (no tax). Payment method, card tail, benefit balance and transaction identifiers deliberately omitted.",
+    "capture_status": "complete_visible_with_date",
+    "unresolved_lines": []
+  },
+  {
+    "receipt_id": "grocery_outlet_2570",
+    "source_file": "IMG_2570.jpeg",
+    "merchant": "Grocery Outlet (location/date not shown)",
+    "transaction_date": null,
+    "currency": "USD",
+    "receipt_total": 23.56,
+    "food_purchase_subtotal_identified": 23.56,
+    "foods": [
+      {
+        "raw": "MARIA COOKIES",
+        "interpretation": "Maria cookies",
+        "price": 1.79,
+        "confidence": "high",
+        "category": "snack",
+        "tags": [
+          "cookies",
+          "snacks"
+        ]
+      },
+      {
+        "raw": "CABBAGE GREEN",
+        "interpretation": "Green cabbage",
+        "price": 1.27,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ],
+        "quantity": 1.84,
+        "quantity_unit": "lb",
+        "unit_price": 0.69
+      },
+      {
+        "raw": "CARROT BAG 2LB",
+        "interpretation": "Carrots, 2 lb bag",
+        "price": 2.99,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ]
+      },
+      {
+        "raw": "ONION GREEN",
+        "interpretation": "Green onions",
+        "price": 1.38,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ],
+        "quantity": 2,
+        "quantity_unit": "bunches",
+        "unit_price": 0.69
+      },
+      {
+        "raw": "TOMATO ROMA SINGLS",
+        "interpretation": "Roma tomatoes",
+        "price": 8.18,
+        "confidence": "high",
+        "category": "vegetables",
+        "tags": [
+          "vegetables"
+        ],
+        "quantity": 3.04,
+        "quantity_unit": "lb",
+        "unit_price": 2.69
+      },
+      {
+        "raw": "BUTTER TUB",
+        "interpretation": "Butter tubs",
+        "price": 3.98,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "dairy"
+        ],
+        "quantity": 2,
+        "quantity_unit": "tubs",
+        "unit_price": 1.99
+      },
+      {
+        "raw": "CRMY RNCH YGRT DIP",
+        "interpretation": "Creamy ranch yogurt dip",
+        "price": 1.99,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "yogurt",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "GO CG FR LG EGGS 1",
+        "interpretation": "Large eggs",
+        "price": 1.98,
+        "confidence": "high",
+        "category": "eggs",
+        "tags": [
+          "eggs",
+          "breakfast"
+        ],
+        "quantity": 2,
+        "quantity_unit": "packs",
+        "unit_price": 0.99
+      }
+    ],
+    "excluded_lines": [],
+    "notes": "Visible price lines reconcile to $23.56 total. Date/location outside photographed portion. Pack quantities are as printed without confirming the number of eggs per pack.",
+    "capture_status": "partial_header_complete_items",
+    "unresolved_lines": []
+  },
+  {
+    "receipt_id": "trader_joes_2571",
+    "source_file": "IMG_2571.jpeg",
+    "merchant": "Trader Joe's, Mountain View, CA",
+    "transaction_date": null,
+    "currency": "USD",
+    "receipt_total": 13.81,
+    "food_purchase_subtotal_identified": 13.81,
+    "foods": [
+      {
+        "raw": "ALMOND RING DANISH",
+        "interpretation": "Almond-ring Danish pastry",
+        "price": 4.99,
+        "confidence": "high",
+        "category": "bakery",
+        "tags": [
+          "pastry",
+          "breakfast",
+          "nuts"
+        ]
+      },
+      {
+        "raw": "YOGURT ORGANIC PLAIN 32",
+        "interpretation": "Organic plain yogurt, 32 oz",
+        "price": 3.99,
+        "confidence": "high",
+        "category": "dairy",
+        "tags": [
+          "yogurt",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "A-APPLES FUJI EACH",
+        "interpretation": "Fuji apples",
+        "price": 4.83,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit"
+        ],
+        "quantity": 7,
+        "quantity_unit": "each",
+        "unit_price": 0.69
+      }
+    ],
+    "excluded_lines": [],
+    "notes": "Three visible line prices sum to $13.81. The slip says nine items in transaction because Fuji apples are seven units. No transaction date visible. Payment identifiers omitted.",
+    "capture_status": "complete_visible_no_date",
+    "unresolved_lines": []
+  },
+  {
+    "receipt_id": "grocery_outlet_2572",
+    "source_file": "IMG_2572.jpeg",
+    "merchant": "Grocery Outlet (location/date not visible)",
+    "transaction_date": null,
+    "currency": "USD",
+    "receipt_total": 11.74,
+    "food_purchase_subtotal_identified": 11.74,
+    "foods": [
+      {
+        "raw": "ORANGE CARA CARA",
+        "interpretation": "Cara Cara oranges",
+        "price": 2.99,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit",
+          "citrus"
+        ]
+      },
+      {
+        "raw": "Tangerine Gold",
+        "interpretation": "Gold tangerines",
+        "price": 3.49,
+        "confidence": "high",
+        "category": "fruit",
+        "tags": [
+          "fruit",
+          "citrus"
+        ]
+      },
+      {
+        "raw": "CINNAMON SUGARBUTTER",
+        "interpretation": "Cinnamon-sugar butter",
+        "price": 0.49,
+        "confidence": "medium",
+        "category": "spread",
+        "tags": [
+          "dairy",
+          "sweets"
+        ]
+      },
+      {
+        "raw": "GO Cream Cheese Ba",
+        "interpretation": "Cream cheese (type/pack unclear)",
+        "price": 1.79,
+        "confidence": "medium",
+        "category": "dairy",
+        "tags": [
+          "cheese",
+          "dairy"
+        ]
+      },
+      {
+        "raw": "LAND O LAKES",
+        "interpretation": "Land O Lakes product, identity unspecified",
+        "price": 0.99,
+        "confidence": "low",
+        "category": "unclassified",
+        "tags": []
+      },
+      {
+        "raw": "OR TURKEY BREAST",
+        "interpretation": "Turkey breast",
+        "price": 1.99,
+        "confidence": "medium",
+        "category": "meat",
+        "tags": [
+          "poultry",
+          "turkey"
+        ]
+      }
+    ],
+    "excluded_lines": [],
+    "notes": "Landscape-oriented receipt photo: six visible price lines reconcile to $11.74. One line is a brand name only, so the food type is not inferred. No date visible.",
+    "capture_status": "partial_header_complete_items",
+    "unresolved_lines": []
+  }
+]

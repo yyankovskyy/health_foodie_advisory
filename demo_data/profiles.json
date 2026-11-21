@@ -1,0 +1,79 @@
+[
+  {
+    "id": "guest",
+    "display_name": "Guest (no clinical profile)",
+    "synthetic": true,
+    "age_years": null,
+    "source": "Manual demo profile",
+    "diagnoses": [],
+    "confirmed_food_allergens": [],
+    "allergy_status": "not_assessed",
+    "prescribed_constraints": [],
+    "clinical_flags": [],
+    "personal_trigger_ingredients": [],
+    "notes": "General meal discovery. No clinical suitability claims."
+  },
+  {
+    "id": "marina",
+    "display_name": "Marina Ellis (fictional, age 78)",
+    "synthetic": true,
+    "age_years": 78,
+    "source": "Synthetic_Medical_Record_01_Marina_Ellis(1).pdf, pp. 1-3",
+    "diagnoses": [
+      "Coronary artery disease",
+      "Heart failure with preserved EF",
+      "Chronic kidney disease stage 3a",
+      "Hypertension",
+      "Hyperlipidemia"
+    ],
+    "confirmed_food_allergens": [],
+    "allergy_status": "medication_allergy_reported_penicillin; food_allergy_not_confirmed",
+    "prescribed_constraints": [
+      {
+        "id": "na_daily",
+        "scope": "daily",
+        "metric": "sodium_mg",
+        "max": 2000,
+        "origin": "SIMULATED physician orders; page 3"
+      }
+    ],
+    "clinical_flags": [
+      "Do not infer potassium/phosphorus limits from CKD diagnosis",
+      "No automatic calorie deficit for older adult",
+      "Daily sodium limit is NOT a per-meal maximum"
+    ],
+    "personal_trigger_ingredients": [],
+    "notes": "Penicillin is a medication allergy, not a food-allergy exclusion. All clinical details fictional."
+  },
+  {
+    "id": "daniel",
+    "display_name": "Daniel Ortiz (fictional, age 65)",
+    "synthetic": true,
+    "age_years": 65,
+    "source": "Synthetic_Medical_Record_02_Daniel_Ortiz(1).pdf, pp. 1-3",
+    "diagnoses": [
+      "Type 2 diabetes with peripheral neuropathy",
+      "GERD",
+      "Hypertension",
+      "Hyperlipidemia"
+    ],
+    "confirmed_food_allergens": [],
+    "allergy_status": "no_food_allergies_documented_not_guaranteed_absent",
+    "prescribed_constraints": [
+      {
+        "id": "carb_meal",
+        "scope": "meal",
+        "metric": "carbohydrate_g",
+        "target_approx": 60,
+        "origin": "SIMULATED consistent-carbohydrate orders; page 3"
+      }
+    ],
+    "clinical_flags": [
+      "SGLT2 inhibitor documented: do not automatically suggest fasting or keto diet",
+      "GERD triggers must be individualized; tomatoes are not universally forbidden",
+      "A1c is not itself a dietary prescription"
+    ],
+    "personal_trigger_ingredients": [],
+    "notes": "Medical profile is synthetic and not a treatment recommendation."
+  }
+]

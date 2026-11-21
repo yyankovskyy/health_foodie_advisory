@@ -1,0 +1,402 @@
+[
+  {
+    "recipe_id": "r1",
+    "name": "Ratatouille",
+    "cuisine": "French",
+    "meal_type": "lunch",
+    "time_minutes_demo": 35,
+    "cost_usd_per_serving_demo": 3.5,
+    "energy_kcal_per_serving_demo": 210,
+    "carbohydrate_g_per_serving_demo": 18,
+    "sodium_mg_per_serving_demo": 220,
+    "ingredients_key_only": [
+      "eggplant",
+      "zucchini",
+      "tomato",
+      "pepper",
+      "onion",
+      "garlic",
+      "olive",
+      "oil"
+    ],
+    "ingredient_summary": "eggplant zucchini tomato pepper onion garlic olive oil",
+    "ingredient_list_complete": false,
+    "allergens_identified_from_summary": [
+      "none_identified"
+    ],
+    "preparation_cross_contact_verified": false,
+    "preference_tags": [
+      "vegetarian",
+      "vegan",
+      "vegetables"
+    ],
+    "source_url": "https://www.themediterraneandish.com/easy-ratatouille-recipe/",
+    "source_guide": "World Cuisines & Recipes, Part I",
+    "nutrition_data_status": "SIMULATED_NOT_VERIFIED",
+    "price_data_status": "SIMULATED_NOT_VERIFIED",
+    "servings_basis": "illustrative single-serving estimate",
+    "warning": "Do not use these numbers for medication dosing, allergy certification, or clinical dietary compliance."
+  },
+  {
+    "recipe_id": "r2",
+    "name": "Borscht (vegetable version)",
+    "cuisine": "Ukrainian",
+    "meal_type": "dinner",
+    "time_minutes_demo": 45,
+    "cost_usd_per_serving_demo": 3.9,
+    "energy_kcal_per_serving_demo": 300,
+    "carbohydrate_g_per_serving_demo": 39,
+    "sodium_mg_per_serving_demo": 450,
+    "ingredients_key_only": [
+      "beets",
+      "cabbage",
+      "carrots",
+      "potato",
+      "onion",
+      "beans",
+      "broth",
+      "dill",
+      "sour",
+      "cream",
+      "optional"
+    ],
+    "ingredient_summary": "beets cabbage carrots potato onion beans broth dill sour cream optional",
+    "ingredient_list_complete": false,
+    "allergens_identified_from_summary": [
+      "milk_possible"
+    ],
+    "preparation_cross_contact_verified": false,
+    "preference_tags": [
+      "soup",
+      "vegetables",
+      "eastern_european"
+    ],
+    "source_url": "https://natashaskitchen.com/classic-russian-borscht-recipe/",
+    "source_guide": "World Cuisines & Recipes, Part I",
+    "nutrition_data_status": "SIMULATED_NOT_VERIFIED",
+    "price_data_status": "SIMULATED_NOT_VERIFIED",
+    "servings_basis": "illustrative single-serving estimate",
+    "warning": "Do not use these numbers for medication dosing, allergy certification, or clinical dietary compliance."
+  },
+  {
+    "recipe_id": "r3",
+    "name": "Tabbouleh",
+    "cuisine": "Lebanese",
+    "meal_type": "lunch",
+    "time_minutes_demo": 20,
+    "cost_usd_per_serving_demo": 3.2,
+    "energy_kcal_per_serving_demo": 250,
+    "carbohydrate_g_per_serving_demo": 28,
+    "sodium_mg_per_serving_demo": 310,
+    "ingredients_key_only": [
+      "parsley",
+      "mint",
+      "tomatoes",
+      "bulgur",
+      "lemon",
+      "olive",
+      "oil"
+    ],
+    "ingredient_summary": "parsley mint tomatoes bulgur lemon olive oil",
+    "ingredient_list_complete": false,
+    "allergens_identified_from_summary": [
+      "wheat"
+    ],
+    "preparation_cross_contact_verified": false,
+    "preference_tags": [
+      "vegetarian",
+      "salad",
+      "middle_eastern"
+    ],
+    "source_url": "https://www.themediterraneandish.com/tabouli-salad/",
+    "source_guide": "World Cuisines & Recipes, Part I",
+    "nutrition_data_status": "SIMULATED_NOT_VERIFIED",
+    "price_data_status": "SIMULATED_NOT_VERIFIED",
+    "servings_basis": "illustrative single-serving estimate",
+    "warning": "Do not use these numbers for medication dosing, allergy certification, or clinical dietary compliance."
+  },
+  {
+    "recipe_id": "r4",
+    "name": "Chana masala",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "time_minutes_demo": 30,
+    "cost_usd_per_serving_demo": 4.4,
+    "energy_kcal_per_serving_demo": 410,
+    "carbohydrate_g_per_serving_demo": 58,
+    "sodium_mg_per_serving_demo": 630,
+    "ingredients_key_only": [
+      "chickpeas",
+      "tomato",
+      "onions",
+      "ginger",
+      "garlic",
+      "spices"
+    ],
+    "ingredient_summary": "chickpeas tomato onions ginger garlic spices",
+    "ingredient_list_complete": false,
+    "allergens_identified_from_summary": [
+      "none_identified"
+    ],
+    "preparation_cross_contact_verified": false,
+    "preference_tags": [
+      "vegan",
+      "legumes",
+      "south_asian"
+    ],
+    "source_url": "https://rainbowplantlife.com/instant-pot-chana-masala/",
+    "source_guide": "World Cuisines & Recipes, Part I",
+    "nutrition_data_status": "SIMULATED_NOT_VERIFIED",
+    "price_data_status": "SIMULATED_NOT_VERIFIED",
+    "servings_basis": "illustrative single-serving estimate",
+    "warning": "Do not use these numbers for medication dosing, allergy certification, or clinical dietary compliance."
+  },
+  {
+    "recipe_id": "r5",
+    "name": "Bibimbap",
+    "cuisine": "Korean",
+    "meal_type": "dinner",
+    "time_minutes_demo": 40,
+    "cost_usd_per_serving_demo": 6.4,
+    "energy_kcal_per_serving_demo": 540,
+    "carbohydrate_g_per_serving_demo": 69,
+    "sodium_mg_per_serving_demo": 880,
+    "ingredients_key_only": [
+      "rice",
+      "spinach",
+      "sprouts",
+      "carrot",
+      "zucchini",
+      "egg",
+      "gochujang",
+      "sesame",
+      "oil",
+      "sesame",
+      "seeds"
+    ],
+    "ingredient_summary": "rice spinach sprouts carrot zucchini egg gochujang sesame oil sesame seeds",
+    "ingredient_list_complete": false,
+    "allergens_identified_from_summary": [
+      "sesame",
+      "egg",
+      "soy_possible",
+      "wheat_possible"
+    ],
+    "preparation_cross_contact_verified": false,
+    "preference_tags": [
+      "rice",
+      "east_asian",
+      "vegetables"
+    ],
+    "source_url": "https://www.maangchi.com/recipe/bibimbap",
+    "source_guide": "World Cuisines & Recipes, Part I",
+    "nutrition_data_status": "SIMULATED_NOT_VERIFIED",
+    "price_data_status": "SIMULATED_NOT_VERIFIED",
+    "servings_basis": "illustrative single-serving estimate",
+    "warning": "Do not use these numbers for medication dosing, allergy certification, or clinical dietary compliance."
+  },
+  {
+    "recipe_id": "r6",
+    "name": "Pad Thai",
+    "cuisine": "Thai",
+    "meal_type": "dinner",
+    "time_minutes_demo": 35,
+    "cost_usd_per_serving_demo": 8.5,
+    "energy_kcal_per_serving_demo": 610,
+    "carbohydrate_g_per_serving_demo": 76,
+    "sodium_mg_per_serving_demo": 1120,
+    "ingredients_key_only": [
+      "rice",
+      "noodles",
+      "tamarind",
+      "fish",
+      "sauce",
+      "palm",
+      "sugar",
+      "tofu",
+      "egg",
+      "bean",
+      "sprouts",
+      "peanuts"
+    ],
+    "ingredient_summary": "rice noodles tamarind fish sauce palm sugar tofu egg bean sprouts peanuts",
+    "ingredient_list_complete": false,
+    "allergens_identified_from_summary": [
+      "fish",
+      "egg",
+      "peanut",
+      "soy_possible",
+      "shellfish_possible"
+    ],
+    "preparation_cross_contact_verified": false,
+    "preference_tags": [
+      "noodles",
+      "southeast_asian"
+    ],
+    "source_url": "https://hot-thai-kitchen.com/best-pad-thai/",
+    "source_guide": "World Cuisines & Recipes, Part I",
+    "nutrition_data_status": "SIMULATED_NOT_VERIFIED",
+    "price_data_status": "SIMULATED_NOT_VERIFIED",
+    "servings_basis": "illustrative single-serving estimate",
+    "warning": "Do not use these numbers for medication dosing, allergy certification, or clinical dietary compliance."
+  },
+  {
+    "recipe_id": "r7",
+    "name": "Menemen",
+    "cuisine": "Turkish",
+    "meal_type": "breakfast",
+    "time_minutes_demo": 15,
+    "cost_usd_per_serving_demo": 4.8,
+    "energy_kcal_per_serving_demo": 360,
+    "carbohydrate_g_per_serving_demo": 16,
+    "sodium_mg_per_serving_demo": 540,
+    "ingredients_key_only": [
+      "eggs",
+      "tomato",
+      "pepper",
+      "scallions",
+      "olive",
+      "oil",
+      "butter",
+      "feta",
+      "optional"
+    ],
+    "ingredient_summary": "eggs tomato pepper scallions olive oil butter feta optional",
+    "ingredient_list_complete": false,
+    "allergens_identified_from_summary": [
+      "egg",
+      "milk_possible"
+    ],
+    "preparation_cross_contact_verified": false,
+    "preference_tags": [
+      "eggs",
+      "breakfast",
+      "middle_eastern"
+    ],
+    "source_url": "https://ozlemsturkishtable.com/2010/07/tomato-pepper-feta-cheese-scrambled-egg-menemen/",
+    "source_guide": "World Cuisines & Recipes, Part I",
+    "nutrition_data_status": "SIMULATED_NOT_VERIFIED",
+    "price_data_status": "SIMULATED_NOT_VERIFIED",
+    "servings_basis": "illustrative single-serving estimate",
+    "warning": "Do not use these numbers for medication dosing, allergy certification, or clinical dietary compliance."
+  },
+  {
+    "recipe_id": "r8",
+    "name": "Pho bo",
+    "cuisine": "Vietnamese",
+    "meal_type": "dinner",
+    "time_minutes_demo": 80,
+    "cost_usd_per_serving_demo": 9.2,
+    "energy_kcal_per_serving_demo": 530,
+    "carbohydrate_g_per_serving_demo": 66,
+    "sodium_mg_per_serving_demo": 1350,
+    "ingredients_key_only": [
+      "beef",
+      "bones",
+      "rice",
+      "noodles",
+      "ginger",
+      "onions",
+      "star",
+      "anise",
+      "fish",
+      "sauce",
+      "herbs"
+    ],
+    "ingredient_summary": "beef bones rice noodles ginger onions star anise fish sauce herbs",
+    "ingredient_list_complete": false,
+    "allergens_identified_from_summary": [
+      "fish"
+    ],
+    "preparation_cross_contact_verified": false,
+    "preference_tags": [
+      "soup",
+      "noodles",
+      "southeast_asian"
+    ],
+    "source_url": "https://thewoksoflife.com/pho-vietnamese-noodle-soup/",
+    "source_guide": "World Cuisines & Recipes, Part I",
+    "nutrition_data_status": "SIMULATED_NOT_VERIFIED",
+    "price_data_status": "SIMULATED_NOT_VERIFIED",
+    "servings_basis": "illustrative single-serving estimate",
+    "warning": "Do not use these numbers for medication dosing, allergy certification, or clinical dietary compliance."
+  },
+  {
+    "recipe_id": "r9",
+    "name": "Chicken adobo",
+    "cuisine": "Filipino",
+    "meal_type": "dinner",
+    "time_minutes_demo": 50,
+    "cost_usd_per_serving_demo": 7.8,
+    "energy_kcal_per_serving_demo": 490,
+    "carbohydrate_g_per_serving_demo": 20,
+    "sodium_mg_per_serving_demo": 1180,
+    "ingredients_key_only": [
+      "chicken",
+      "soy",
+      "sauce",
+      "vinegar",
+      "garlic",
+      "bay",
+      "leaves",
+      "peppercorns"
+    ],
+    "ingredient_summary": "chicken soy sauce vinegar garlic bay leaves peppercorns",
+    "ingredient_list_complete": false,
+    "allergens_identified_from_summary": [
+      "soy",
+      "wheat_possible"
+    ],
+    "preparation_cross_contact_verified": false,
+    "preference_tags": [
+      "poultry",
+      "southeast_asian"
+    ],
+    "source_url": "https://panlasangpinoy.com/filipino-chicken-adobo-recipe/",
+    "source_guide": "World Cuisines & Recipes, Part I",
+    "nutrition_data_status": "SIMULATED_NOT_VERIFIED",
+    "price_data_status": "SIMULATED_NOT_VERIFIED",
+    "servings_basis": "illustrative single-serving estimate",
+    "warning": "Do not use these numbers for medication dosing, allergy certification, or clinical dietary compliance."
+  },
+  {
+    "recipe_id": "r10",
+    "name": "Jollof rice",
+    "cuisine": "Nigerian",
+    "meal_type": "lunch",
+    "time_minutes_demo": 55,
+    "cost_usd_per_serving_demo": 5.3,
+    "energy_kcal_per_serving_demo": 480,
+    "carbohydrate_g_per_serving_demo": 82,
+    "sodium_mg_per_serving_demo": 690,
+    "ingredients_key_only": [
+      "parboiled",
+      "rice",
+      "tomatoes",
+      "peppers",
+      "scotch",
+      "bonnet",
+      "onions",
+      "stock",
+      "thyme",
+      "curry",
+      "powder"
+    ],
+    "ingredient_summary": "parboiled rice tomatoes peppers scotch bonnet onions stock thyme curry powder",
+    "ingredient_list_complete": false,
+    "allergens_identified_from_summary": [
+      "none_identified"
+    ],
+    "preparation_cross_contact_verified": false,
+    "preference_tags": [
+      "rice",
+      "west_african"
+    ],
+    "source_url": "https://cheflolaskitchen.com/jollof-rice/",
+    "source_guide": "World Cuisines & Recipes, Part I",
+    "nutrition_data_status": "SIMULATED_NOT_VERIFIED",
+    "price_data_status": "SIMULATED_NOT_VERIFIED",
+    "servings_basis": "illustrative single-serving estimate",
+    "warning": "Do not use these numbers for medication dosing, allergy certification, or clinical dietary compliance."
+  }
+]
